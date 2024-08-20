@@ -1,0 +1,72 @@
+/* Hero.css */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    border-radius: 50px;
+  }
+  
+  .hero-text {
+    flex-basis: 40%;
+    padding: 80px;
+  }
+  
+  .hero-text h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .logo-icon {
+    font-size: 34px;
+    margin: 10px;
+    color: #fff;
+    transition: color 0.2s ease;
+  }
+  
+  .logo-icon:hover {
+    color: #666;
+  }
+  
+  .image-content {
+    flex-basis: 50%;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Add some responsive styles */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+    .hero-text {
+      flex-basis: 100%;
+      padding: 20px;
+    }
+    .image-content {
+      flex-basis: 100%;
+      padding: 20px;
+    }
+  }
