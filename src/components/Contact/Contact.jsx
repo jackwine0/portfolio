@@ -19,7 +19,7 @@ const Contact = () => {
           border: "none",
           borderRadius:"15px",
         }}
-        scrolling="no"
+        scrolling="yes"
       />
       <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js" />
       <script>
